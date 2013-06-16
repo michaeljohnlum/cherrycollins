@@ -4,48 +4,91 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Cherry Collins</title>
+<link href='http://fonts.googleapis.com/css?family=Questrial|Raleway|Roboto+Slab:300,400|Oswald:400,300' rel='stylesheet' type='text/css'>
 <script type="Text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
-    <style type="text/css">
-   
-    #wrapper {
-	position: relative;
-	margin-top: 100px;
-	width: 400px;
-	margin-left: auto ;
-    margin-right: auto ;
-    text-align: center;
-    display: none;
-
-}
-    
-    </style>
-     </head>
-     
+<script src="js/scroll.js"></script>
+<script src="js/animate.js"></script>
+        
 <script type="text/javascript">
  
 $(document).ready(function(){
  
-	$('#wrapper').fadeIn(500);
-
+	$('#logo').fadeIn(500);
+	$('#title').fadeIn(500);
+	$('#navigation').fadeIn(500);
 
 });
  </script>
-  
+ 
+  <link rel="stylesheet" href="styles.css">
+  </head> 
   
   <body>
-    <div id="wrapper">
-   <img src="images/logo_small.png" alt="logo_small"><br><br>
-   <img src="images/cherrycollins.png" alt="cherrycollins" width="399" height="72">
-   
+  <div id="intro" class="panel intro">
+  <div id="navigation">
+  <a href="#intro" id="nav-intro">INTRO</a>
+  	&nbsp&nbsp&nbsp&nbsp
+	  <a href="#portfolio" id="nav-portfolio">PORTFOLIO</a>
+	  &nbsp&nbsp&nbsp&nbsp
+	<a href="#about" id="nav-about">  ABOUT</a>
+  </div>
+  
+    <div id="logo">
+	    <img src="images/cclogo.svg" alt="logo_small" width="100%">
+	</div>
+	<div id="title">
+		<img src="images/title.svg" alt="cherrycollins" width="100%">
+	</div>
+
+  </div>
+    <div id="portfolio" class="panel portfolio">
+    <div id="content">
+<div class="postWrapper">
+ <div class="post">
+<img src="images/ParisisBurning/paris1.jpg" width="100%" id="postImage">
+	 	 <div class="caption">
+	 PARIS IS BURNING
+	 </div>
+	 </div>
+
+</div>
+<div class="postWrapper">
+  <div class="post">
+ POST
+	 </div>
+</div>
+<div class="postWrapper">
+  <div class="post">
+ POST
+ </div>
+ 	</div>
+<div class="postWrapper">
+ <div class="post">
+ POST
+	 </div>
+</div>
+<div class="postWrapper">
+  <div class="post">
+ POST
+	 </div>
+</div>
+<div class="postWrapper">
+  <div class="post">
+ POST
+ </div>
+ 	</div>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
+    
+
+    </div>
+    <div id="about" class="panel about">
+  
+    </div>
+
+
+
+
+<script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
